@@ -197,6 +197,7 @@ cc_library_shared {
     // TODO(b/153609531): remove when no longer needed.
     native_bridge_supported: true,
     double_loadable: true,
+    sdclang: false,
     defaults: ["cblas-defaults"],
     static_libs: ["libF77blas"],
 }
